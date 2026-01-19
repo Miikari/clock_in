@@ -9,7 +9,7 @@ from datetime import datetime
 class TimeClockApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Kellokortti")
+        self.root.title("Clock-In software")
 
         # Tilamuuttujat
         self.start_time = None
@@ -38,7 +38,7 @@ class TimeClockApp:
 
         self.end_label = tk.Label(
             root,
-            text="Lopeta päivä",
+            text="End day",
             font=("Segoe UI", 14, "underline"),
             fg="#1976D2",
             activeforeground="#3F9642",
